@@ -1,0 +1,20 @@
+# Environment & Secrets
+.env
+config.env
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# OS Artifacts
+.DS_Store
+Thumbs.db
+
+# Logs & Temp
+*.log
+scratch/
