@@ -21,7 +21,8 @@ AGY-HomeLab/
 └── runbooks/
     ├── EMERGENCY.md          # Protocolos de recuperación y contingencia
     ├── MAINTENANCE.md        # Procedimientos de snapshots y actualizaciones
-    └── PROVISIONING.md       # Estándares para nuevos LXCs y VMs
+    ├── PROVISIONING.md       # Estándares para nuevos LXCs y VMs
+    └── IOT_TROUBLESHOOTING.md# Solución de problemas de domótica Hubitat y TP-Link Kasa
 ```
 
 ---

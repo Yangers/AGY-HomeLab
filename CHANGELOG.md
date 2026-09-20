@@ -16,9 +16,17 @@ Registro cronológico de cambios, provisionamiento, migraciones y actualizacione
   - [`runbooks/EMERGENCY.md`](file:///Users/ypa/Documents/AGY-HomeLab/runbooks/EMERGENCY.md): Procedimientos de contingencia ante caídas de DNS, Nginx Proxy Manager o caída de la GUI web de Proxmox, y restauración desde PBS.
   - [`runbooks/MAINTENANCE.md`](file:///Users/ypa/Documents/AGY-HomeLab/runbooks/MAINTENANCE.md): Protocolos de snapshots preventivos y actualizaciones de sistema.
   - [`runbooks/PROVISIONING.md`](file:///Users/ypa/Documents/AGY-HomeLab/runbooks/PROVISIONING.md): Estándares de asignación de VMIDs, storage, VLAN tagging y tags.
+  - [`runbooks/IOT_TROUBLESHOOTING.md`](file:///Users/ypa/Documents/AGY-HomeLab/runbooks/IOT_TROUBLESHOOTING.md): Diagnóstico y resolución de incidencias en domótica Hubitat, protocolo KLAP de TP-Link y sensores mmWave.
 - **Configuración y Seguridad:**
   - `.gitignore`, `.env.example` y `config.env` para aislar credenciales locales de API tokens.
 - **Manual Central:** Creación de [`README.md`](file:///Users/ypa/Documents/AGY-HomeLab/README.md) con comandos rápidos y guía de uso.
+
+### Incidencias y Correcciones
+- **Domótica / Hubitat — Caída de comunicación Kasa TP-Link tras actualización de firmware:**
+  - **Dispositivos afectados:** `Guess Bathroom` (Half Bath piso 1, ID `2828`, IP `10.98.100.74`) y `Storage Light` (Storage, ID `2829`, IP `10.98.100.132`), ambos modelo Kasa HS210.
+  - **Causa:** La actualización de firmware cerró el puerto TCP local 9999 (protocolo XOR sin autenticación), provocando `commsError: true` en Hubitat e impidiendo el encendido automático de luces mediante sensores de movimiento.
+  - **Solución aplicada:** Conmutación de "Compatibilidad con Terceros" en la app móvil TP-Link Kasa/Tapo para reabrir el puerto local 9999, seguido de sincronización `refresh` en Hubitat, restableciendo `commsError: false` y normalizando las automatizaciones. Documentado en [`runbooks/IOT_TROUBLESHOOTING.md`](file:///Users/ypa/Documents/AGY-HomeLab/runbooks/IOT_TROUBLESHOOTING.md).
+
 
 ### Eliminado
 - **Limpieza de Almacenamiento y Depuración de VMs:**
