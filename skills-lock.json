@@ -1,0 +1,1643 @@
+{
+  "version": 1,
+  "skills": {
+    "ab-testing": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/ab-testing/SKILL.md",
+      "computedHash": "3a15cb80f3b92a931abaf11b0619cc8d2c4ef1bec6a3e6c4d0bb03eb0e599ce4"
+    },
+    "accessibility": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/accessibility/SKILL.md",
+      "computedHash": "651fa7beb6e4b8de112353134af59f502fd5b900d9c807f08d24eb6f32fb7b8d"
+    },
+    "ads": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/ads/SKILL.md",
+      "computedHash": "0366cb9ccfdc1e8d948ae1436e41ce1404e66d5629485f67fdbb3394aee87661"
+    },
+    "agent-eval": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/agent-eval/SKILL.md",
+      "computedHash": "9d72af6d97e990d73476cf9818909d7bbfc62b88f0e03c21c84764a21b122375"
+    },
+    "agent-safety": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/agent-safety/SKILL.md",
+      "computedHash": "e96b164a0a9c2f041e741682e600a22885e609674139660d37918fde5faab0e0"
+    },
+    "ai-media": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/ai-media/SKILL.md",
+      "computedHash": "52c992a2f2c079c2da515f04032b318be535c36e56745c480ed4d73ba8bf72b1"
+    },
+    "analytics": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/analytics/SKILL.md",
+      "computedHash": "151d0dbc2827e93040e5fb98fa5f1e97b33419c5753bfec7ff52af899c6f44a1"
+    },
+    "analyze": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/analyze/SKILL.md",
+      "computedHash": "b2b2aadd28aa79be0ebb747248fbd90b33654b1f6faa71747f0900c845879e88"
+    },
+    "angular": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/angular/SKILL.md",
+      "computedHash": "976cd541548698debe2e7d51b747c2ec70766cdd572f018928f9eac2ba71ab15"
+    },
+    "api-connector-builder": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/api-connector-builder/SKILL.md",
+      "computedHash": "a2587031673a65fad92bb272e6c8700cf5de7afec9062a1256341ad049a488dc"
+    },
+    "api-design": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/api-design/SKILL.md",
+      "computedHash": "4a941057f25b5a87d719e2a80e8a7681379dbfc4129b8a6e5a32f89b6d7992e0"
+    },
+    "article-writing": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/article-writing/SKILL.md",
+      "computedHash": "b52516d7574db6ec0c5b559482c57e2bb29d6c4d0a060d9999f32dd69f240a24"
+    },
+    "astro": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/astro/SKILL.md",
+      "computedHash": "b01cf01d58db8b3714cecc248557428a206ad3ca8eae03751ed020b556f7cbf6"
+    },
+    "author-skill": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/author-skill/SKILL.md",
+      "computedHash": "f3d395dbf61f9e4e5ba9e5aeb0cd1a89faa6d1bc173d2614dec4946708679d95"
+    },
+    "automation-flows": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/automation-flows/SKILL.md",
+      "computedHash": "0eae89fd497f35b64d38bbd9887e4daf33417c19ad3fb0115b62623ebbb04c95"
+    },
+    "automation-strategy": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/automation-strategy/SKILL.md",
+      "computedHash": "bde1b54ca1d31280f9b2d1066ff6d0d0ff35441679332ab53be50679da790d7f"
+    },
+    "aws-essentials": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/aws-essentials/SKILL.md",
+      "computedHash": "6aff3b97716a23b3286d7c3b07fe1e842bb46aa8aafeab3a638e8a92a6e6ee04"
+    },
+    "backups": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/backups/SKILL.md",
+      "computedHash": "3dab0bdd9b8803168fab10b33ebfed52d638eaf62c2cf7bc9695149de6322d41"
+    },
+    "bash-scripting": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/bash-scripting/SKILL.md",
+      "computedHash": "e0987f44fc5b54ca608a2d63ab244e278c925c2fe287c5f204cb9e1954dee161"
+    },
+    "bookkeeping": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/bookkeeping/SKILL.md",
+      "computedHash": "b02af90f5fb96654b15f26f85030155ce2cc90b235220379a2473553aadefa63"
+    },
+    "brand-identity": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/brand-identity/SKILL.md",
+      "computedHash": "2df059b141e49c548e94aa965442f3053555875b656c1340c9bc12b18947aca9"
+    },
+    "brand-voice": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/brand-voice/SKILL.md",
+      "computedHash": "ffa90ef53dc62c8850d3e9be88acee7cd1d80e3d20060311352a6a6f265bcc14"
+    },
+    "bro": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/bro/SKILL.md",
+      "computedHash": "58ef31fa2e22893ff4cd44b775bf97477a33523326fc5ba0e5080f9849b9769b"
+    },
+    "building-agents": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/building-agents/SKILL.md",
+      "computedHash": "a7f60f4d51f4d470a4bd778d2353024749b22be0177f461c6607328742798c24"
+    },
+    "business-intelligence": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/business-intelligence/SKILL.md",
+      "computedHash": "55e6dd81317b8534691f323f18e1c80e777c6ad825ba95897b11192edb35ec4e"
+    },
+    "calendar-scheduling": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/calendar-scheduling/SKILL.md",
+      "computedHash": "cf67f97f86fccef781c469c310ed63b8621988bfea8ccbdf7b2d08ce70dac9cd"
+    },
+    "case-studies": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/case-studies/SKILL.md",
+      "computedHash": "7936f987e83655ea61d05649ec3ce7740a1e9ef31d8ae0e1903e2faf0a87db56"
+    },
+    "chatbot": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/chatbot/SKILL.md",
+      "computedHash": "88686ea15453cb5b28c800e37a691c533005698717a1d165cb877748ee66918b"
+    },
+    "chrome-extension": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/chrome-extension/SKILL.md",
+      "computedHash": "ff147f6972a01891785db92896e93c302429213f5070e8dbb98c0dcf503fd554"
+    },
+    "clarify": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/clarify/SKILL.md",
+      "computedHash": "ff73355320ed317732b938dca95839f5a9670276637e8635980cd6159035d3d2"
+    },
+    "clickhouse-analytics": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/clickhouse-analytics/SKILL.md",
+      "computedHash": "e117cebf359735f7b3fb5def031da528682d95e637674e2db912c7324b71706c"
+    },
+    "client-onboarding": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/client-onboarding/SKILL.md",
+      "computedHash": "0e38e523e486cdf4679e23f1a40d2410961f03c7e6bef3911380ece5a3365d25"
+    },
+    "cloudflare": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/cloudflare/SKILL.md",
+      "computedHash": "840d1a9072baa2e8fc84665f24e8c1747747ef367f76097d2512ab43afc708e7"
+    },
+    "code-review": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/code-review/SKILL.md",
+      "computedHash": "815b470790de6e79cc084e41702ca3ebb1df6ac0e1379ef77629bd803e8f1b8c"
+    },
+    "codebase-onboarding": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/codebase-onboarding/SKILL.md",
+      "computedHash": "8dd9e585a3eb6ae4424b9c4631d5125aaa006949186ee649f3b055ebc24bb057"
+    },
+    "cold-outreach": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/cold-outreach/SKILL.md",
+      "computedHash": "a96c8aa0c8630a29ee464bad8e161cc65aa264b89ce5e6607eecd6598a1ab597"
+    },
+    "community": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/community/SKILL.md",
+      "computedHash": "02be50dbb70400d4fa991098cd85c5fb9b4ffd34980c187371fa2a119f66869b"
+    },
+    "competitor-watch": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/competitor-watch/SKILL.md",
+      "computedHash": "02699fe7d49366b84b5fe9f8fa99a3d80ef96e630f821bcc42bf038265f04719"
+    },
+    "compliance": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/compliance/SKILL.md",
+      "computedHash": "c3a38365f9a28924fb0752250d030d989314a401abd65f199462261abae08a6c"
+    },
+    "compose-multiplatform": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/compose-multiplatform/SKILL.md",
+      "computedHash": "ebb24933982133b3a1278a1752f22df0ee06b1e58de05b9309fb6edc391bdc41"
+    },
+    "constitution": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/constitution/SKILL.md",
+      "computedHash": "5fcc462eb475076608e1ed051bb83fb7493c03e8e14571fec555b9e4b5953b74"
+    },
+    "content-engine": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/content-engine/SKILL.md",
+      "computedHash": "0fb8f1f32421737e964036dd7af55d5631d36257ea63a652f1459f53dcdb78fd"
+    },
+    "context-budget": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/context-budget/SKILL.md",
+      "computedHash": "cbe15ccfd0fb3b1fa98064540f11cdee5f3996fdaeacc007ea7d8ac4f3ae8e39"
+    },
+    "continuous-learning": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/continuous-learning/SKILL.md",
+      "computedHash": "883fc747347db5577373a381ef16afb26f81027fe3fb1202ba846c5193c39127"
+    },
+    "contracts": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/contracts/SKILL.md",
+      "computedHash": "fe7cd45bcf06313cda014f240f8fd7f610e92d76ac5cd9c9a5c1edf293548c57"
+    },
+    "coolify": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/coolify/SKILL.md",
+      "computedHash": "136cf92df06818691fbf633b968e15fb357d82e7ae89d4c9b1191442f90531a8"
+    },
+    "cost-tracking": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/cost-tracking/SKILL.md",
+      "computedHash": "3f8a9b81c277e918ab9825da8f9e38d5450767f36b6d36537bcfdb8c47a32604"
+    },
+    "course-builder": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/course-builder/SKILL.md",
+      "computedHash": "d1ffa17b0d75dee0ce235a27732d81db35b9f31fe1b4d08fc304aa42b14fc1a6"
+    },
+    "course-storytelling": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/course-storytelling/SKILL.md",
+      "computedHash": "a911fc92363fa1eeac280c84c6ac4a30dd8b3266df8de0104c27dbaf23df151b"
+    },
+    "cpp": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/cpp/SKILL.md",
+      "computedHash": "c18e29d46923be0b0c9f9870849d3219a67502319d581b3e130b8140424ebcf0"
+    },
+    "csharp-dotnet": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/csharp-dotnet/SKILL.md",
+      "computedHash": "4747b6ab30186897553e9812a9fee55c2bad5e08134c1d299e6ccb6725c3192c"
+    },
+    "customer-support": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/customer-support/SKILL.md",
+      "computedHash": "2d55c667379a2a027cc72b97a59eedf5c8a29200713707aa8efd37cb588fa662"
+    },
+    "dashboard": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/dashboard/SKILL.md",
+      "computedHash": "fb517659d34fc86091c0d406c39f4d47d89b26f388ac3ff48f44a84c4dbd30d1"
+    },
+    "data-cleaning": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/data-cleaning/SKILL.md",
+      "computedHash": "a37affa6949c8977cbf2ac766eadd8a22ef735914bfc6e26bfc5c2e93fee66e3"
+    },
+    "data-policy": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/data-policy/SKILL.md",
+      "computedHash": "cdcf0cea9941847c6ffa3d745bb6b22e53c6d963ce26bdeb2a4239c910bb678f"
+    },
+    "data-scraper": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/data-scraper/SKILL.md",
+      "computedHash": "b7ea503aa619bba1e5b186e138819a7f2b505dcd9525bbc468367abfda201049"
+    },
+    "db-migrations": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/db-migrations/SKILL.md",
+      "computedHash": "26be3b554c2ee0bbee45c061cda3f44d1bb66cb8debcbe6250927622dff10ba2"
+    },
+    "debug": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/debug/SKILL.md",
+      "computedHash": "aa491298a67e22f7ef89d25b5e84656776f9422c653e4892c49b0591f25f3208"
+    },
+    "decision-challenge": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/decision-challenge/SKILL.md",
+      "computedHash": "92e12fd47df958118d8afa7e3294dbf9fbde0023a1480f779382c2f6aa6af033"
+    },
+    "decision-records": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/decision-records/SKILL.md",
+      "computedHash": "4c1ba7bf5b5d8aba75d2ec9ad5ab5e9b82e6eab53479b96d9f4678633b3d460c"
+    },
+    "deep-learning": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/deep-learning/SKILL.md",
+      "computedHash": "13229e283054a9801aaf0aa1f49c447f440d9df226475ef473170347224d1228"
+    },
+    "deployment": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/deployment/SKILL.md",
+      "computedHash": "c43f4a4f41bfb3d2950cafdea5089d7bd16a75d8a2aaaa19cf500dc47e2b438f"
+    },
+    "deprecation": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/deprecation/SKILL.md",
+      "computedHash": "94f08bf974520df95fa154bd799d449a73af59b9ed13eba89197b412bddfcdd8"
+    },
+    "design": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/design/SKILL.md",
+      "computedHash": "4ba0357eb7114d51a95331bd525e00bf9eb671a0208108b5f4f9542dd688b32d"
+    },
+    "design-dna": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/design-dna/SKILL.md",
+      "computedHash": "842ab0920ddb2457c84e025d81f17678008ae6117d566083f63b414a6f979c6f"
+    },
+    "design-loop": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/design-loop/SKILL.md",
+      "computedHash": "c5f226f153b361224e3d4d133d7ad380b2f38ce640cf670a640ab2ce48b12c25"
+    },
+    "digitalocean": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/digitalocean/SKILL.md",
+      "computedHash": "914ff71fd23b67c5eae3d7204c34b8d805ba1b2bc82807a1cb2a09d1f7ee5e36"
+    },
+    "django": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/django/SKILL.md",
+      "computedHash": "3ef17e56d050d735bf9509d10b9566cbad0731b41b9b8bd2918acbdb7abc61c6"
+    },
+    "docker": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/docker/SKILL.md",
+      "computedHash": "22219b255a4010f32059fd2ebb0d0808c8b51fcc601b733b6b82cd83c297a4d6"
+    },
+    "document-processing": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/document-processing/SKILL.md",
+      "computedHash": "685fa392eca2c3657cc1b9cda52afbb7d5b388a92b8849489eeae0af520ce381"
+    },
+    "domains-dns": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/domains-dns/SKILL.md",
+      "computedHash": "fe875e7a52ceeca936b8f40184ff1f686681dfb78985fc7441209578953a889d"
+    },
+    "drizzle-orm": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/drizzle-orm/SKILL.md",
+      "computedHash": "a5a9903917fae6a49baa9dad4536e11a20741ac5c1591edeca314a1452ee5b3d"
+    },
+    "duckdb": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/duckdb/SKILL.md",
+      "computedHash": "02c3263e09dd42b80bf114aeb8bb403bdea7b6265551e019b44d1415c6ba938b"
+    },
+    "dynamodb": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/dynamodb/SKILL.md",
+      "computedHash": "11ba85e3eca41062c64af05d387eb8c03c027bbabf2eba30d172a2c2209d9522"
+    },
+    "e-signature": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/e-signature/SKILL.md",
+      "computedHash": "cd3297c0c53057262a136f512ce099558b945ddbae7cc16cf8140c9c952be399"
+    },
+    "e2e-testing": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/e2e-testing/SKILL.md",
+      "computedHash": "782be7a4e15d04039e334eea77f969a0b7394d86aead6985fb4027ac6743110b"
+    },
+    "electron": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/electron/SKILL.md",
+      "computedHash": "756cc7097fd983d96022e6a6aba3efd28b8cd55e41f0cbe77314f81ec9c4c5fd"
+    },
+    "eli5": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/eli5/SKILL.md",
+      "computedHash": "ff2aff33fdb99223bef29b8f7f70bcdc9a05fde12d2bcec18b3fb955325b928d"
+    },
+    "elixir": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/elixir/SKILL.md",
+      "computedHash": "40ac520def64bee5f6b09794413a78f382b8ead9e9026c4ba06d090a06518776"
+    },
+    "email-connector": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/email-connector/SKILL.md",
+      "computedHash": "a5f03e685b10d5986c7142f796433a45b3c13715b25e97ab909610d7d7697175"
+    },
+    "email-deliverability": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/email-deliverability/SKILL.md",
+      "computedHash": "b8f3b1bb61038e88ab1f4d4e9898884cc90b6ee1a3fa52c3070ae8cd005b4484"
+    },
+    "embeddings-search": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/embeddings-search/SKILL.md",
+      "computedHash": "d7ccfe14a6a59828807e4e5d3a69ceda7afd8d769bf300f2521bf2357e127798"
+    },
+    "error-handling": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/error-handling/SKILL.md",
+      "computedHash": "c4713bca29c93a353507edf4d669c6d0656958c8df17bbb0e913381f0dee2192"
+    },
+    "expo": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/expo/SKILL.md",
+      "computedHash": "5c6c533e610938527cc53897c68a698003202f675ba339d17a1f643065167d64"
+    },
+    "fable-operator": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/fable-operator/SKILL.md",
+      "computedHash": "eeb55ada4acfe002ccc978ba8f5b7294d963f822b2c240fee91d27bda24cfaaf"
+    },
+    "fal": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/fal/SKILL.md",
+      "computedHash": "363acfab24ac9978dcc8d91dd84e47230808aa67d7f8d220296e706db5959098"
+    },
+    "fastapi": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/fastapi/SKILL.md",
+      "computedHash": "f136aee1cefc504e5113bd58b279fcf5f2330a77c16768f0d7f9548ba03f83e7"
+    },
+    "finance-ops": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/finance-ops/SKILL.md",
+      "computedHash": "330d90dec04f7b4e7b8d5972907396a8da867901d9e38bdb1b986077e5e8af1e"
+    },
+    "financial-model": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/financial-model/SKILL.md",
+      "computedHash": "7d40ab2d6649d982bd247a73f9bd4e49f0bd47ceb84c6a3982b9a0523f201ea4"
+    },
+    "finetuning": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/finetuning/SKILL.md",
+      "computedHash": "50baf1d820e6f1415cb72aea8c3f3efca93456923a8abce1970e2910c9293d6f"
+    },
+    "firebase": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/firebase/SKILL.md",
+      "computedHash": "fd58e955103eeb8bdca3ed489bbdd486ab2d38520c4101b5b4f4c890dfcc9b88"
+    },
+    "flutter": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/flutter/SKILL.md",
+      "computedHash": "f73f703269d2b925625c77fbd8fe731c276bbd054643c04bf744178ab63847e8"
+    },
+    "fly-io": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/fly-io/SKILL.md",
+      "computedHash": "1cfb0b9d10ba917943003f8e74b1f4cfc0ef979e442f3fcc629ce94d74990fbb"
+    },
+    "forecasting": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/forecasting/SKILL.md",
+      "computedHash": "3716751d9c2f3205f4c8248e1294b002b30fab3f76650f2895538973661eb535"
+    },
+    "ftd": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/ftd/SKILL.md",
+      "computedHash": "cbb156be1e54c11746a64c96da38bb130a0be1306550a1d22061c0768314f809"
+    },
+    "fundraising": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/fundraising/SKILL.md",
+      "computedHash": "c179d71a3ab1bf5093eebffd2131cbe810cdafd96c876abe3cc03f5c9b8f3ad3"
+    },
+    "game-design": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/game-design/SKILL.md",
+      "computedHash": "9a2e35579119e6a3b75ac53723ac495df85a4bef88b2d549b366d71a86f0a016"
+    },
+    "game-storytelling": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/game-storytelling/SKILL.md",
+      "computedHash": "1b8f812ec641f74c94153c657306896deefe6ff9775499b1a444be9f60e3d91b"
+    },
+    "gamedev-multiplayer": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/gamedev-multiplayer/SKILL.md",
+      "computedHash": "091c3d39e0c9aa19f4b8687f6394ac71674aea84e0429b26b83ecb0945410742"
+    },
+    "gamedev-pathing": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/gamedev-pathing/SKILL.md",
+      "computedHash": "29032e6a8867e5802e0f1d810906a1c9c7320bf58001f542ba215e162b9af89b"
+    },
+    "gamedev-physics": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/gamedev-physics/SKILL.md",
+      "computedHash": "e604bcfa75ef0a8d8bfb0500ec141be06cf6855eb0db43ee4b11a14e966abc81"
+    },
+    "gamedev-shaders": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/gamedev-shaders/SKILL.md",
+      "computedHash": "55958fe2859e9a1516d7ae0d243fbc1e55938fc39e623f08e29e53b55c250195"
+    },
+    "gamedev-shipping": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/gamedev-shipping/SKILL.md",
+      "computedHash": "0334b1c3805227d40309237c84c21ed29db878c35bbd2869a06e1e03da4854f3"
+    },
+    "gcp-essentials": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/gcp-essentials/SKILL.md",
+      "computedHash": "fb4b80510ac5ede7f976dca174d1ff1fc912e25b2ec12f2af10291113ea0d071"
+    },
+    "gdpr-privacy": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/gdpr-privacy/SKILL.md",
+      "computedHash": "87f6d4eb1ad0786f7a95be5910840ae3294ee2293b3c9e9b9c8e282ba3033d1b"
+    },
+    "git-workflow": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/git-workflow/SKILL.md",
+      "computedHash": "79e9e435b53a5eab2abf1c9ca10a5c83da75f055b4932910f5b8909501aa51b1"
+    },
+    "github-actions": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/github-actions/SKILL.md",
+      "computedHash": "cb9c42bb37113799cb6129861f6cd4e10f1d0ae6777466ac2a752aaf9fa8a3a4"
+    },
+    "go": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/go/SKILL.md",
+      "computedHash": "e573ba39da80633044f44dabbf6711dac143ceb71fb0a8989214d4099bdfa3d3"
+    },
+    "godot": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/godot/SKILL.md",
+      "computedHash": "18ee73cdd301f0100ba0c58cf58761b82b10539f856d55485760a213eba9b3f3"
+    },
+    "google-workspace": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/google-workspace/SKILL.md",
+      "computedHash": "ecf3ed197b3d334ed9524c0f6cae692fdb616c7275cbb258a05897008858e58b"
+    },
+    "grants": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/grants/SKILL.md",
+      "computedHash": "22e071c3838a008e86ca915c80dee6c631252a502ebf80514886ed0b67513d9e"
+    },
+    "harness": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/harness/SKILL.md",
+      "computedHash": "7cb980f51ad13ce763119be6712c80a9b03f5ae91c0a155b92a50fa984ff43cd"
+    },
+    "hetzner": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/hetzner/SKILL.md",
+      "computedHash": "88e84828cd9ff1c57b4ee9c65099a6285ad261aac1dda7aafc95a09fe75cac84"
+    },
+    "hiring": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/hiring/SKILL.md",
+      "computedHash": "505e736ad4c212a76068e29c648b19e40d0aabbdf3effffd505e1ef77f16dab6"
+    },
+    "htmx": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/htmx/SKILL.md",
+      "computedHash": "36647d28a128817c5e7969d90b9ed17781b9a3d665d44296e112822aa8421112"
+    },
+    "huggingface": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/huggingface/SKILL.md",
+      "computedHash": "732e345d640756167a4f09c54dd589a9217d22057ec068e264ba486dd5579f6f"
+    },
+    "idea-refinement": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/idea-refinement/SKILL.md",
+      "computedHash": "a4c5c6ef1cb338f00d813837089e820a7c170b7b2b7487f5b56b805ee74b3b68"
+    },
+    "implement": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/implement/SKILL.md",
+      "computedHash": "d647e403875097ffbca25e9b4607e60f7af4d18ea68d0b1760fe88134a72a3ff"
+    },
+    "init": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/init/SKILL.md",
+      "computedHash": "4f2d1ad2f08e2ece78ce0aae42e9ead6a43f80014e68a43d1e3e5ed2b59f788e"
+    },
+    "instagram-api": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/instagram-api/SKILL.md",
+      "computedHash": "5020c78f4131dfaf42562f880e179209ef1c83cf6e85a56d69b0a30f33542d32"
+    },
+    "inventory": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/inventory/SKILL.md",
+      "computedHash": "0c8f72b9da70f08808a3263e2c4530d811698c06c52fe2b180ba8477447099e6"
+    },
+    "investor-materials": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/investor-materials/SKILL.md",
+      "computedHash": "73630ee91038a55df5c6fa0598805c961d3ed4d9f0cc45d32875bc8f45596e4c"
+    },
+    "invoicing": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/invoicing/SKILL.md",
+      "computedHash": "6253078b5cde4da6ae1b4aed3a804a31bb1f40aaf5a8d5a4e0c191d2367c0df1"
+    },
+    "ip-trademark": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/ip-trademark/SKILL.md",
+      "computedHash": "1f8857bdc79c0fa72b4c3e45052497feb24cb7fa81fec0ef03364d11795bb8b6"
+    },
+    "java": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/java/SKILL.md",
+      "computedHash": "5dd74422c07c8d0cc8e7e5bc16fbfbc26e3f6e9d62c0a399853b9d026fd80cb7"
+    },
+    "knowledge-ops": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/knowledge-ops/SKILL.md",
+      "computedHash": "51626041a2a7c6315d7c0a1f3ecc51d5ebc2bc7185ef61f3c617302bbed3cc84"
+    },
+    "kotlin-android": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/kotlin-android/SKILL.md",
+      "computedHash": "864f16cb2b282554de5d325823dbfe960c5dc3ce4c08fb2fa5e1a6c92ade1bc3"
+    },
+    "kpi-framework": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/kpi-framework/SKILL.md",
+      "computedHash": "1cddc11307ffcdfb7a8cfecab168f9e200f37aee73c991780757477b3090cf5f"
+    },
+    "landing-copy": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/landing-copy/SKILL.md",
+      "computedHash": "66e65082e941d6c4011b208db54ec53be8fb2b0405d79faabb8f3308ea88f86f"
+    },
+    "laravel": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/laravel/SKILL.md",
+      "computedHash": "1b588cc56da461ca878ab1fdc21a092bcf33a7eeff9115907fba0889184770ec"
+    },
+    "lead-gen": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/lead-gen/SKILL.md",
+      "computedHash": "61145fad805a94aa74aff49f1786434a1b388d7343256f21e92ad8c2fc1c9301"
+    },
+    "level-design": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/level-design/SKILL.md",
+      "computedHash": "ca3accf54b03d13a07b01bbb1cfa89cecef35a5cb1a6210f1560e54075fc0716"
+    },
+    "linkedin-api": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/linkedin-api/SKILL.md",
+      "computedHash": "457e58879891bb90a20c6dfb4f37b15925ac74151951690c9ca2a9132147c4e7"
+    },
+    "linkedin-carousels": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/linkedin-carousels/SKILL.md",
+      "computedHash": "f0329f912b30f7201a169862b4e524f46ca6a9971e044cc8ac4344f05db38196"
+    },
+    "linkedin-content": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/linkedin-content/SKILL.md",
+      "computedHash": "0ab4d252d836d7cab2369c8885492e4b4731c1ff07db533b9e467187e8033340"
+    },
+    "linkedin-outreach": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/linkedin-outreach/SKILL.md",
+      "computedHash": "fde501bc3e61eb4f68a21fb3f459ec401228ebbfec5ff20d0e15726cf00208ac"
+    },
+    "linkedin-strategy": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/linkedin-strategy/SKILL.md",
+      "computedHash": "cf91d71a7c6ecbabc30398fefe0a57893589926e3c594fb97c0b61aa47075eec"
+    },
+    "llm-pipeline": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/llm-pipeline/SKILL.md",
+      "computedHash": "20b8a87f5332ff0a65ed64244902105edb76412a3e948f471ceb80412d9d4669"
+    },
+    "logistics-ops": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/logistics-ops/SKILL.md",
+      "computedHash": "2eb29dfc4a9f641e386bb19941acdb9cc0a59ba073e4a9a53b4c08e6291dfcb4"
+    },
+    "machine-learning": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/machine-learning/SKILL.md",
+      "computedHash": "78bf54ee663a87e6c7537668936ed45afe18b6fd8f238917d9badee91ba673e1"
+    },
+    "make": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/make/SKILL.md",
+      "computedHash": "1e8bb39026bee360165bcd3e5220d7e5837b6fbfe3463803d285cdf882f1a689"
+    },
+    "market-research": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/market-research/SKILL.md",
+      "computedHash": "478fb3b4eff95cfaeb9382ce58537973e829d1021bf5223b95fbd4e61ea48bdf"
+    },
+    "marketing": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/marketing/SKILL.md",
+      "computedHash": "309a42064995457aa7da260ef0cce34a4d7f5c12bbd4d47635be882e4c5b0671"
+    },
+    "medium-publishing": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/medium-publishing/SKILL.md",
+      "computedHash": "869ef250773541ee813dee7007573bedc3b5ee45c39d25c4d1498f76b2c80d13"
+    },
+    "medium-strategy": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/medium-strategy/SKILL.md",
+      "computedHash": "b690583ce4c5ed3dba296d6cbb9baa9437c980c6be5717e0a81fef182a83abdd"
+    },
+    "medium-writing": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/medium-writing/SKILL.md",
+      "computedHash": "9792fb28e36985d98830df8f4056d3e67b76efe1f2b235db4b29059b125cdff4"
+    },
+    "meeting-notes": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/meeting-notes/SKILL.md",
+      "computedHash": "adb184c79ac5605a96ffa0d2504f64ace7ac751f757214d685ff6fa6aee59bad"
+    },
+    "modal": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/modal/SKILL.md",
+      "computedHash": "2b8e2bfedc0bced42215b2f9891af31d032c1b8165abf219c4083613bd1b674d"
+    },
+    "mongodb": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/mongodb/SKILL.md",
+      "computedHash": "02b789dbc949946b3c2caf45f45f3cbfe3e3c89d45544f332578ba18c43c0df8"
+    },
+    "monitoring": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/monitoring/SKILL.md",
+      "computedHash": "4434463a12f378abc63dd3ad3311866415d65a5bdf135372b545dd4104963534"
+    },
+    "motion-craft": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/motion-craft/SKILL.md",
+      "computedHash": "51ecbe48c5c45b96d2970e492f5322ba8ba74b19f3e16d1962a7c3a97e011649"
+    },
+    "mysql": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/mysql/SKILL.md",
+      "computedHash": "61ae90e9f6e0bb2ac1f2c17b357df0fd24e6ec76ba3b8ebc377f981dc3a928db"
+    },
+    "n8n": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/n8n/SKILL.md",
+      "computedHash": "9b2cceb258eb6f13ef64160d02d1a0505c5f9664a953940d06cf5275d4f8a995"
+    },
+    "neon": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/neon/SKILL.md",
+      "computedHash": "f6a8a15708b0f881c80a77532a9e3daf78795d328d3047352acc2f7ec5368c00"
+    },
+    "nestjs": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/nestjs/SKILL.md",
+      "computedHash": "fa02905caa0c274b36ac41d398646729baa836a9fb4adffc9aa19010a571e58c"
+    },
+    "netlify": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/netlify/SKILL.md",
+      "computedHash": "76e5e87f34471b65adfa5a84216dde62d0771aabb5f64b78bdd6518579691dc5"
+    },
+    "newsletter": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/newsletter/SKILL.md",
+      "computedHash": "e9d2477e933298cbbd466697eaa8261e06745a1e9e8dd7e0be14ad0b95d0a772"
+    },
+    "nextjs": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/nextjs/SKILL.md",
+      "computedHash": "6629ae362da16550e17e180b80e16b7f45fbdd1bb7109d278e59e3bdc56e69a6"
+    },
+    "nlp": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/nlp/SKILL.md",
+      "computedHash": "63ef0e7d63efd91f4e07d00edc48a34715506e15e3408538e2800197373d35b0"
+    },
+    "no-code-app": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/no-code-app/SKILL.md",
+      "computedHash": "22e433934a6ab0765bd9ee534a4712ba8ba06832486933c3ed7c7d86dd1c4c7c"
+    },
+    "nodejs": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/nodejs/SKILL.md",
+      "computedHash": "c9646cc3ce74f7e9d5a881e24477e6f67c663d76b087f9d3876dcb801c8a285f"
+    },
+    "notion-connector": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/notion-connector/SKILL.md",
+      "computedHash": "8d8463fcdccdce84bba525526f9aa1b0d9711e5132dc758d89d7996e42f06b75"
+    },
+    "observability": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/observability/SKILL.md",
+      "computedHash": "7fe3d3e60f2ce057d665f620ac215c84fe32321e174a84b53ac5826e83fe4712"
+    },
+    "ollama": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/ollama/SKILL.md",
+      "computedHash": "206e068de4be35c559d5046036a2462a00c04f5668bbf2bee1dd10727ec00860"
+    },
+    "open-weights": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/open-weights/SKILL.md",
+      "computedHash": "25ce1e17d417b5687749d4693d9f7cd4446a4688fab6399adabf42a83f167afb"
+    },
+    "orient": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/orient/SKILL.md",
+      "computedHash": "524880643e7c003d8710bfa11cf1db96a7ce04dfa3fd6324fe413856aa783077"
+    },
+    "parallel": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/parallel/SKILL.md",
+      "computedHash": "b9a06dc6a4164c80e2288104c8825a19151a5253eb6ef94000b56d362e97fc3f"
+    },
+    "people-ops": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/people-ops/SKILL.md",
+      "computedHash": "9211380ed4ad47308c8308c6ff812313fbae5338a2a6397b9926829f17d43408"
+    },
+    "performance": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/performance/SKILL.md",
+      "computedHash": "c039818f302ebec90904a7d170bc8534ae260ff152e4ccd52cd14a96c6a678bd"
+    },
+    "phoenix": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/phoenix/SKILL.md",
+      "computedHash": "3cec5ce9b4ae77a0e7e356d81d895205e58648ab597f8d708f5c1b5a8d52b159"
+    },
+    "php": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/php/SKILL.md",
+      "computedHash": "413ed9279e6f1d598b528094ce3d913541e03b6c49a9839f5d95005d1c127b8d"
+    },
+    "pitch-deck": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/pitch-deck/SKILL.md",
+      "computedHash": "cc63def4a5b5915b3fc38be2d92c6f1e40d86ecd196250d4695cd6fa46213aea"
+    },
+    "plan": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/plan/SKILL.md",
+      "computedHash": "559e74f37dec15b08840c0c3a2269dead7d59c124bc4e73b23dcb7dfb8b51483"
+    },
+    "planetscale": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/planetscale/SKILL.md",
+      "computedHash": "6817b5cdaf87023be0c2149139ba5065b140a3f10bc822115558ef42b517e182"
+    },
+    "podcast": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/podcast/SKILL.md",
+      "computedHash": "12a50ef60aaf3127adad44bf3aecf5743a924f39755702ed4072fb9dc92c8e8d"
+    },
+    "postgresdb": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/postgresdb/SKILL.md",
+      "computedHash": "64815c8f5180ee53f4d05edc94c38fffcf8f40d69797b402f6a2d563f4a7ed3b"
+    },
+    "power-automate": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/power-automate/SKILL.md",
+      "computedHash": "3f0cff06751c192eb4ca58298a9336e2f53e2cff3542bd275730537f3d354081"
+    },
+    "presentations": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/presentations/SKILL.md",
+      "computedHash": "2e88966a96110625173b9865fba4e1602dde175e7d6c64ca3644d37e54f5dc9f"
+    },
+    "press-kit": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/press-kit/SKILL.md",
+      "computedHash": "7f7f77abf76ffa6edce291d236970a97faf59635633cc05998b2e6d55296ba46"
+    },
+    "pricing": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/pricing/SKILL.md",
+      "computedHash": "e6e2a46d14442f79209d8a26f4b05fa52bf504dbae8ef6aa19a3911ef5d18f3c"
+    },
+    "prisma-orm": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/prisma-orm/SKILL.md",
+      "computedHash": "c5c31655a5891ededed19c3523cdfa0c70aa52d7fa00739da371845b5db51a7a"
+    },
+    "procurement": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/procurement/SKILL.md",
+      "computedHash": "7ac8511b6b4293bd170422d3bf787c90f9f1b7bb6317cd984e4871aa9fccef58"
+    },
+    "project-ops": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/project-ops/SKILL.md",
+      "computedHash": "63994e2f6c881716f73a08aca94cfca842d7bfbf1eab1484f5ebe6bd154035d6"
+    },
+    "prompt-engineering": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/prompt-engineering/SKILL.md",
+      "computedHash": "4a874346286785f324a31fa4e50e864dc229e7279fdd448ef776ade7e4fbedf4"
+    },
+    "proposals": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/proposals/SKILL.md",
+      "computedHash": "cdf8f6c9aaed60bbd61d6fe45704c4e38a914f23d95ffbff038e47920f463ee7"
+    },
+    "python": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/python/SKILL.md",
+      "computedHash": "78d7a01a19bc3949df830a8ddf7a33ea21188a5b4b5cc7e4b30eff45331cef61"
+    },
+    "rag": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/rag/SKILL.md",
+      "computedHash": "a1452f8429b27d169c22761c6b2085f4f00814a8d743cfef694f1f4d7359b068"
+    },
+    "rails": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/rails/SKILL.md",
+      "computedHash": "9305b40ee53290037787278146e3ecd60f66e06a71ff880899355a420baf17c6"
+    },
+    "railway": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/railway/SKILL.md",
+      "computedHash": "9a8e06a181f780c934f9ec053c612a72a2d5cd44b223962f30567e6e7d127a1b"
+    },
+    "react": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/react/SKILL.md",
+      "computedHash": "512edfd700b6835a53abbfcf932430b39e7eba934f1a09f9e9709e1465156b99"
+    },
+    "react-native": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/react-native/SKILL.md",
+      "computedHash": "674eb516b40495f3ebe716aa56213d69cfc0184b6fb955d38151f79707ff0ac6"
+    },
+    "redis": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/redis/SKILL.md",
+      "computedHash": "6e91476b586432c5825973e9f102af682a1f6934475e416b6fa488cd4c8bc08b"
+    },
+    "remotion-video": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-video/SKILL.md",
+      "computedHash": "f99c3d651c9ec91c2f5aad2a4577ccf0c9ebdb3229b4c181a1f10f3e2959459a"
+    },
+    "render": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/render/SKILL.md",
+      "computedHash": "4189c09f9f16ad015fcd8dd2d6a779dbe2e40c3d00363a773a8267adb39ac46b"
+    },
+    "replicate": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/replicate/SKILL.md",
+      "computedHash": "7624760980cca3829f32d73865e08c18da8f64098d506310753c0e3d6a9fa283"
+    },
+    "replicate-images": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/replicate-images/SKILL.md",
+      "computedHash": "56726ee30546dc55221e293c0a9a4d6a06020284cbc24c56dc0ee5a7a665dc5a"
+    },
+    "reporting": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/reporting/SKILL.md",
+      "computedHash": "040cb9c24b3ae257a561a769ad968d2fe94097b04bdb2306e06a3403d29ad8d9"
+    },
+    "research-ops": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/research-ops/SKILL.md",
+      "computedHash": "93c1777e416f2e1176e633cc97e537c59c02dd2fe628c0b077f625cabfc9e4ea"
+    },
+    "retention": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/retention/SKILL.md",
+      "computedHash": "85682662c42e90e3ab4486b1fc99d2c3ca0882c85b4125e0c889371403b5385c"
+    },
+    "review": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/review/SKILL.md",
+      "computedHash": "33d11a1c47e168234ae3eecf24385599e2a9c73f0126248b778095e51c1d7f4f"
+    },
+    "review-management": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/review-management/SKILL.md",
+      "computedHash": "911cfa153fadcb26ecc30b8d9897e9f76c20013358dc79020b1c7648e4ee67ff"
+    },
+    "roast-me": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/roast-me/SKILL.md",
+      "computedHash": "73855834c47ea3b7d41a78d9a253aafa0933849a0a7fc59be927eaa8bbd760b8"
+    },
+    "ruby": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/ruby/SKILL.md",
+      "computedHash": "7ce6ee712fb396cbafcdb1d818aaa7aee40b867c40a9faf269f1b6c7cb52deaf"
+    },
+    "runpod": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/runpod/SKILL.md",
+      "computedHash": "cab4bdea02a3fcda868441c798ad4718f75cb27b47cec45d9d782e5c019f68bc"
+    },
+    "rust": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/rust/SKILL.md",
+      "computedHash": "97d1e889f7392baa55c3885f9069b446f41be844ee912cc0afb47028c5692fee"
+    },
+    "sales-pipeline": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/sales-pipeline/SKILL.md",
+      "computedHash": "fabace7fe13fcd65fdc4746fef4d3ae16d5aeb6eca71b7fae233ebab70b97c08"
+    },
+    "scaling": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/scaling/SKILL.md",
+      "computedHash": "f45a320358090e8849e367546fbc6c051828c48c85b9df07d9e31ecc39d90f63"
+    },
+    "sdd": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/sdd/SKILL.md",
+      "computedHash": "33f7e3875a49279fd058d8a70a8f680234e629687e28b6e3f220f9d25c6c5aab"
+    },
+    "sdd-init": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/sdd-init/SKILL.md",
+      "computedHash": "91ff4f2e2670ff93ae95cc088168eebe4e37ee94bc543c37c748a77e5b44c965"
+    },
+    "secure-coding": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/secure-coding/SKILL.md",
+      "computedHash": "1d22d681a5b1c991abbfeedbba9da16f222377fc57e4a18596d7f3a49411d35e"
+    },
+    "security-scan": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/security-scan/SKILL.md",
+      "computedHash": "72fc4e6bb5ddcee662afd192d1765ad42cc146c0346dea736189328aefd8747d"
+    },
+    "seo-geo": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/seo-geo/SKILL.md",
+      "computedHash": "d0c3ebb7fa592d63b4c09fb89a361ab61224c10bc93e5d9e78c81dc2d0b8646d"
+    },
+    "ship": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/ship/SKILL.md",
+      "computedHash": "5b9149f9b02a91645e7ba75f21e73df7340e084ed76481f41d59ddff26e37b3d"
+    },
+    "shopify": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/shopify/SKILL.md",
+      "computedHash": "12e992942a912a88d7bd3f6a4d9e87336a362cd90e1059f322edaefee559e3bc"
+    },
+    "shortform-editing": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/shortform-editing/SKILL.md",
+      "computedHash": "57a7980bee27798a51918ea8d0a72da55d9234fb8d2696748355beed22705128"
+    },
+    "shortform-ideation": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/shortform-ideation/SKILL.md",
+      "computedHash": "fe8cde3c488f0b6413b1cc79ae8cf82ab25eeb1cecebdc5beeca9f6c2f97806d"
+    },
+    "shortform-packaging": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/shortform-packaging/SKILL.md",
+      "computedHash": "387494f112b2726f6a3bba204c04fc81fc58a7102f28cb03a2d092d8ef3b6b58"
+    },
+    "shortform-strategy": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/shortform-strategy/SKILL.md",
+      "computedHash": "84a07d0468c373ac20be4616c64700ceffd92c414cea222d3c33eb7acc5edb6a"
+    },
+    "show-me": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/show-me/SKILL.md",
+      "computedHash": "6637b329b2ce9b102d569f1b872e3205524ca0c49ace1f1b949af3effad9698e"
+    },
+    "simplify-code": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/simplify-code/SKILL.md",
+      "computedHash": "95ac2c22dde8f790a444ed41addd5cb3c4e9fa2a50156fdf4662acbabe200bf2"
+    },
+    "skill-scout": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/skill-scout/SKILL.md",
+      "computedHash": "41ff278520fda8d192269c4263d9de9a995c4be8e6ba7767144034c8af0e02e9"
+    },
+    "social-publisher": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/social-publisher/SKILL.md",
+      "computedHash": "823bd701bf662dcbcf61d52cce992582f3340a2825cea6e61f3c2a3004bb0462"
+    },
+    "solid-js": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/solid-js/SKILL.md",
+      "computedHash": "9e71222b9461ef84fe2717fac135167b0ea11d4f8535a79d4ce9d5f87163c09b"
+    },
+    "sop-builder": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/sop-builder/SKILL.md",
+      "computedHash": "aafbdf532fa53a7612ffb95d051312745609aa0a79e84040c5f4227e91f10b84"
+    },
+    "source-grounded-development": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/source-grounded-development/SKILL.md",
+      "computedHash": "bddf0dc048122937c80d421177d25475113d4b3cdba6ccc2013420d3cf50c84e"
+    },
+    "specify": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/specify/SKILL.md",
+      "computedHash": "708fe550fc051b4cdff199e98d95dff6cdd7fef8d6792af0f323306ff29cfe65"
+    },
+    "spreadsheet-ops": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/spreadsheet-ops/SKILL.md",
+      "computedHash": "4e860fe671ad36f265b33e11e26b41e680e87b440311ac1c461cec3fff3c4f42"
+    },
+    "spring-boot": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/spring-boot/SKILL.md",
+      "computedHash": "53b37d44e9da6d6363676da30c2260a593a1f3e054cb4fc625cad1d07593cf5a"
+    },
+    "sql": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/sql/SKILL.md",
+      "computedHash": "42402750380688c6609cb9a5a9e0047f43588e109df80373c70a0a4aa839a78d"
+    },
+    "sqlite-turso": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/sqlite-turso/SKILL.md",
+      "computedHash": "3f80dab3a8dcbc8291fa9ec1078edb4ba61c93d50503fe537f83fc6e6aa53d21"
+    },
+    "stripe": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/stripe/SKILL.md",
+      "computedHash": "7a3dcfc7f8df1f58aecaa46a60c78fb50565156e46bb6279eccf9f4d3d4af401"
+    },
+    "structured-extraction": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/structured-extraction/SKILL.md",
+      "computedHash": "a966b8cfab7a2b37a23c596f8d1b027e198373c0d544c1d25aabfd0f1f298933"
+    },
+    "suggest": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/suggest/SKILL.md",
+      "computedHash": "391acd674aa0ec6ea4ff717d3764da730156a6f2caf388cc5cbee4ed1d148727"
+    },
+    "supabase": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/supabase/SKILL.md",
+      "computedHash": "08d9897728b52d8e496e1158ac5b9f70914172dc291ce0afcc79e72a9255f8bc"
+    },
+    "svelte": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/svelte/SKILL.md",
+      "computedHash": "3bfafea709ac3a900502f6d8af3ad074618e07c99c4794fed95d7fdb1e7a0aec"
+    },
+    "swift-ios": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/swift-ios/SKILL.md",
+      "computedHash": "7191681e02b2bdda25fea2d23c355329e1646e4bb8bd87f9ebd11cadd805f278"
+    },
+    "tasks": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/tasks/SKILL.md",
+      "computedHash": "10b3cc23437f04f4ae98f63ceb1fdb406aa9b303950114ab6b443479cb3fb1f0"
+    },
+    "tauri": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/tauri/SKILL.md",
+      "computedHash": "357729e649400fc7cb4735b6db46d151c782145dd4eaaea7cec00b0610da5129"
+    },
+    "technical-writing": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/technical-writing/SKILL.md",
+      "computedHash": "d397c02bb7675a5ddf1b995aaf58181f4bb9c37a1c90bff1cb09edf70be37231"
+    },
+    "terms-conditions": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/terms-conditions/SKILL.md",
+      "computedHash": "f71a5c45a48108f9acc9ae340299d2a146bf72f248fe231b81dc8f0a69d3a361"
+    },
+    "testing-go": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/testing-go/SKILL.md",
+      "computedHash": "35583dd21af95bc378af517098e5d6eceb3778593c23c2847dab6525ac5aad13"
+    },
+    "testing-py": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/testing-py/SKILL.md",
+      "computedHash": "f7f7502c7b445b55b5fe92e907f108fa23d9d0a64fd505dd96f3e3083c2342f7"
+    },
+    "testing-web": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/testing-web/SKILL.md",
+      "computedHash": "e28ae44ba9e18d080968bdf1b9bf13c6a8cfe19651df9c1d0be08a183b93959a"
+    },
+    "tiktok-api": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/tiktok-api/SKILL.md",
+      "computedHash": "055010db31ccee56f890545c09a172e3e80ed492f83194de8dd4aeb8f228463e"
+    },
+    "together-fireworks": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/together-fireworks/SKILL.md",
+      "computedHash": "817958773ef040f677f64b8113d3c0387bc844f1601f8fe458ddc79b1488eaeb"
+    },
+    "training-data": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/training-data/SKILL.md",
+      "computedHash": "2dd89fda464301fbafe7d95592aaf8db651072ae2dbc8ea4fb51fbbe48f83447"
+    },
+    "translation-l10n": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/translation-l10n/SKILL.md",
+      "computedHash": "86fdc521fc18cb2f3d6f828be31934b55f5a0340fec6f8e7890f5481e736dea7"
+    },
+    "typescript": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/typescript/SKILL.md",
+      "computedHash": "fd031077a1e32e10ce2a2cd7627a69ea8fcef877d4f25a045493778c058783e5"
+    },
+    "ui-engineering": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/ui-engineering/SKILL.md",
+      "computedHash": "de0e0850d8e8524ede98646c180d8c976f71eb02cf6e1bdca95a941368c25853"
+    },
+    "unit-economics": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/unit-economics/SKILL.md",
+      "computedHash": "39259953454d40c96cd9d5c83e8daef28452b5d896cd0f0114b004d3a8bda18f"
+    },
+    "unity": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/unity/SKILL.md",
+      "computedHash": "1d1deac16149e92f934fdfddcb431829dcb3601c09824b040abb11410a1c6803"
+    },
+    "unreal": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/unreal/SKILL.md",
+      "computedHash": "f16ae0d9eeab95772ce3fe8c935c22a95e2ef6487347b097747cfe3e09376334"
+    },
+    "unslop": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/unslop/SKILL.md",
+      "computedHash": "e60c97bcefff0c463c0d7aef0fbfa83b487f38d47da823d92cc3a58a8c8482fd"
+    },
+    "unsloth": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/unsloth/SKILL.md",
+      "computedHash": "229b7c51db2593a834d0dfde0b71f333d1a4be50e5920eb099df567f076edfb9"
+    },
+    "variant-explorer": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/variant-explorer/SKILL.md",
+      "computedHash": "61c2c877f5b6d09354670c5a57700646fee60ccf415fe64163a3312a3297b6b5"
+    },
+    "vector-db": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/vector-db/SKILL.md",
+      "computedHash": "9ba19ca9268028a3daf5866decb31edb9d4d1ff836297889b66b652e2bf9e66b"
+    },
+    "vercel": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/vercel/SKILL.md",
+      "computedHash": "6d0d251f128656b87ca0170d43a452e0e9cf1f7834595f4b8cb8940b47a741aa"
+    },
+    "verify": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/verify/SKILL.md",
+      "computedHash": "ba41b09c77b2eecde7d23c129acbd214f6be8eb3935e3fb6547fb923e8808e45"
+    },
+    "video-shorts": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/video-shorts/SKILL.md",
+      "computedHash": "9f6609b738b9367f45e5d1436814ffd1037c064bdf2a95878fc73d223077ff05"
+    },
+    "viral-score": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/viral-score/SKILL.md",
+      "computedHash": "9684973810efc4febfadee1ad6ff940d2d9ae77c3ae297c6981d5f85379927dd"
+    },
+    "vllm": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/vllm/SKILL.md",
+      "computedHash": "a64ed906afe30671beb479dfe16dd3ba216856866a37bff22f462bd725c68ce3"
+    },
+    "vue-nuxt": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/vue-nuxt/SKILL.md",
+      "computedHash": "416f1749844930fbe4312eaa247c63f909e91964f12a68bb3103ff2a87ab7316"
+    },
+    "webhooks": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/webhooks/SKILL.md",
+      "computedHash": "b0f2d410d011d6d658648539f3ebdbf463db050ca48b1510ff38692e598f1422"
+    },
+    "webinar": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/webinar/SKILL.md",
+      "computedHash": "c3a759bfbc979da4416ed8e30b756955c33db18d4d04219afc32e40c428982a9"
+    },
+    "whatsapp-telegram": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/whatsapp-telegram/SKILL.md",
+      "computedHash": "6960685b6e823fa85a52b3fd640fece546587de5b90a2abe6db2fff926b9ec70"
+    },
+    "wordpress": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/wordpress/SKILL.md",
+      "computedHash": "b4c03c3b7b208a94fa914f776cee657a6784236b1a5e56a0a586bfecdea7b405"
+    },
+    "worktrees": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/worktrees/SKILL.md",
+      "computedHash": "4595c6e742d384fbd35b32cc4f4dae42f59c3096c1033ebcf9b75bce26d6b575"
+    },
+    "youtube-api": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/youtube-api/SKILL.md",
+      "computedHash": "e902efcc9731be846e160cc619308f10f8d71e994e9a13d64762b1167c6f0252"
+    },
+    "youtube-ideation": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/youtube-ideation/SKILL.md",
+      "computedHash": "58d27c6703e72f7bcbb0314deab17db1a8683c7225f0dfac5b2da0dba658b7d1"
+    },
+    "youtube-packaging": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/youtube-packaging/SKILL.md",
+      "computedHash": "da66f08e0ee44f606f0621104a3cc68c264a856169704ff53a27853d22c9da52"
+    },
+    "youtube-strategy": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/youtube-strategy/SKILL.md",
+      "computedHash": "3c38774050cf33bd081d2d67f107811f1c593115dd588f861671c5b81b71de55"
+    },
+    "youtube-thumbnails": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/youtube-thumbnails/SKILL.md",
+      "computedHash": "cc39139261e3920a73e759e7e2d8b05b240cc45a056e20e0d9686f3341b33312"
+    },
+    "zapier": {
+      "source": "ericrisco/rsc-harness",
+      "sourceType": "github",
+      "skillPath": "skills/zapier/SKILL.md",
+      "computedHash": "cefe3182c4a5f90397406b751a72bc318ae5d0cfab0e9333ea656f8d88a506f4"
+    }
+  }
+}
