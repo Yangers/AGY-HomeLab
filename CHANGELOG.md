@@ -4,6 +4,26 @@ Registro cronológico de cambios, provisionamiento, migraciones y actualizacione
 
 ---
 
+## [2026-09-22]
+
+### Añadido
+- **Servidor Laya AI (LXC 120 `laya-server`):**
+  - Despliegue de nuevo contenedor LXC con Debian 13 (Trixie) en Proxmox VE (`proxmox-yp`).
+  - Recursos asignados: 4 vCPUs, 4 GB RAM, 512 MB swap, 20 GB disco en NVMe `local-lvm`.
+  - Red estática: IP `10.98.10.40/24`, Gateway `10.98.10.1`, DNS `10.98.10.250` (VLAN 10 Servidores / `YPA Home`).
+  - Autenticación SSH configurada con clave pública `~/.ssh/id_ed25519.pub`.
+  - Instalación de PyTorch (CPU) y framework **Laya** (`convaiinnovations/laya` v0.3.6) en entorno virtual `/opt/laya/venv`.
+  - Servicio HTTP API en FastAPI (`/opt/laya/server.py`) exponiendo endpoints `/health` y `/predict` (System 1 decision inference).
+  - Servicio systemd `laya.service` habilitado para arranque automático.
+- **Reverse Proxy & SSL (Nginx Proxy Manager):**
+  - Configurado nuevo Proxy Host (`ID 29`) en NPM (LXC 109 `10.98.10.23:81`) para el dominio `laya.yangers.duckdns.org` reenviando a `http://10.98.10.40:8000`.
+  - Asociado certificado wildcard existente `*.yangers.duckdns.org` (Cert ID 41) con Force SSL y HTTP/2 activo.
+- **Resolución DNS Local:**
+  - Añadido registro `laya.yangers.duckdns.org` -> `10.98.10.23` en Pi-hole Primario (LXC 102 `10.98.10.250`) y Secundario (LXC 105 `10.98.10.251`).
+  - Añadido registro estático en UniFi Cloud Gateway Fiber (`10.98.1.1` / `10.98.10.1` / `10.98.50.1`) para resolución en todas las VLANs.
+
+---
+
 ## [2026-09-19]
 
 ### Añadido

@@ -53,6 +53,7 @@ El acceso automatizado está configurado a través de **API Tokens** de Proxmox 
 | **107** | `vaultwarden` | Gestor de contraseñas Bitwarden | 4 vCPUs, 1 GB RAM, 20 GB disco | `password-manager` |
 | **109** | `nginxproxymanager` | Reverse Proxy & SSL certificates | 2 vCPUs, 2.1 GB RAM, 16.8 GB disco | `proxy` |
 | **111** | `rustdesk` | Servidor de acceso remoto RustDesk | 2 vCPUs, 1 GB RAM, 8.5 GB disco | `remote-desktop` |
+| **120** | `laya-server` | Modelo IA de decisiones rápidas (System 1) | 4 vCPUs, 4 GB RAM, 20 GB disco | `ai`, `ml`, `api` |
 
 ### Máquinas Virtuales (QEMU / KVM) Activas
 

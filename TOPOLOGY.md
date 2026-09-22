@@ -81,6 +81,7 @@ Documentación exhaustiva de la arquitectura de red, hardware, virtualización y
 | **107** | `vaultwarden` | Activo | 4 | 1.0 GB | Gestor de contraseñas Bitwarden | `password-manager` | **CRÍTICO** |
 | **109** | `nginxproxymanager` | Activo | 2 | 2.0 GB | Reverse Proxy, SSL, certificados | `proxy` | **CRÍTICO** |
 | **111** | `rustdesk` | Activo | 2 | 1.0 GB | Servidor de acceso remoto RustDesk | `remote-desktop` | Media |
+| **120** | `laya-server` | Activo | 4 | 4.0 GB | Laya Fast Decision Model (System 1 AI) | `ai`, `ml`, `api` | Media |
 
 ### Máquinas Virtuales (QEMU/KVM)
 | VMID | Nombre | Estado | vCPUs | RAM (Max) | Propósito / Rol | Criticidad |
