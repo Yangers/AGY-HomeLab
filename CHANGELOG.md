@@ -18,6 +18,13 @@ Registro cronológico de cambios, provisionamiento, migraciones y actualizacione
 - **Reverse Proxy & SSL (Nginx Proxy Manager):**
   - Configurado nuevo Proxy Host (`ID 29`) en NPM (LXC 109 `10.98.10.23:81`) para el dominio `laya.yangers.duckdns.org` reenviando a `http://10.98.10.40:8000`.
   - Asociado certificado wildcard existente `*.yangers.duckdns.org` (Cert ID 41) con Force SSL y HTTP/2 activo.
+- **Optimización y Enrutamiento Multilingüe (Español / Inglés):**
+  - Ampliación de memoria de LXC 120 de 4 GB a 8 GB RAM (`8192 MB`) y swap a 1 GB (`1024 MB`) en caliente.
+  - Descarga y activación del modelo multilingüe (`convaiinnovations/laya` subfolder `multilingual` para Español y otros idiomas).
+  - Implementación de `laya.Router(max_loaded=2)` con precarga en memoria de ambos modelos (`english` + `multilingual`), permitiendo detección y enrutamiento automático de idioma con latencia sub-segundo (~100-300 ms).
+  - Creación de interfaz Web Playground interactiva en `https://laya.yangers.duckdns.org/` con presets y visualización en tiempo real de confianzas y probabilidades.
+- **Gestión de Recursos Proxmox:**
+  - Detenida máquina virtual `omarchy-vm` (VMID 112) liberando 8 GB RAM y 6 vCPUs en el nodo `proxmox-yp`.
 - **Resolución DNS Local:**
   - Añadido registro `laya.yangers.duckdns.org` -> `10.98.10.23` en Pi-hole Primario (LXC 102 `10.98.10.250`) y Secundario (LXC 105 `10.98.10.251`).
   - Añadido registro estático en UniFi Cloud Gateway Fiber (`10.98.1.1` / `10.98.10.1` / `10.98.50.1`) para resolución en todas las VLANs.
