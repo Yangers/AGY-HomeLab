@@ -54,6 +54,7 @@ El acceso automatizado está configurado a través de **API Tokens** de Proxmox 
 | **109** | `nginxproxymanager` | Reverse Proxy & SSL certificates | 2 vCPUs, 2.1 GB RAM, 16.8 GB disco | `proxy` |
 | **111** | `rustdesk` | Servidor de acceso remoto RustDesk | 2 vCPUs, 1 GB RAM, 8.5 GB disco | `remote-desktop` |
 | **120** | `laya-server` | Modelo IA de decisiones rápidas (System 1) | 4 vCPUs, 8 GB RAM, 20 GB disco | `ai`, `ml`, `api` |
+| **121** | `obsidian-server` | Obsidian Web UI (LinuxServer Docker) | 2 vCPUs, 4 GB RAM, 16 GB disco | `notes`, `productivity`, `web` |
 
 ### Máquinas Virtuales (QEMU / KVM) Activas
 

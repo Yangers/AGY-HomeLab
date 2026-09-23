@@ -82,6 +82,7 @@ Documentación exhaustiva de la arquitectura de red, hardware, virtualización y
 | **109** | `nginxproxymanager` | Activo | 2 | 2.0 GB | Reverse Proxy, SSL, certificados | `proxy` | **CRÍTICO** |
 | **111** | `rustdesk` | Activo | 2 | 1.0 GB | Servidor de acceso remoto RustDesk | `remote-desktop` | Media |
 | **120** | `laya-server` | Activo | 4 | 8.0 GB | Laya Fast Decision Model (System 1 AI) | `ai`, `ml`, `api` | Media |
+| **121** | `obsidian-server` | Activo | 2 | 4.0 GB | Obsidian Web UI (LinuxServer Docker) | `notes`, `productivity`, `web` | Media |
 
 ### Máquinas Virtuales (QEMU/KVM)
 | VMID | Nombre | Estado | vCPUs | RAM (Max) | Propósito / Rol | Criticidad |

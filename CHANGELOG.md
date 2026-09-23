@@ -23,6 +23,14 @@ Registro cronológico de cambios, provisionamiento, migraciones y actualizacione
   - Descarga y activación del modelo multilingüe (`convaiinnovations/laya` subfolder `multilingual` para Español y otros idiomas).
   - Implementación de `laya.Router(max_loaded=2)` con precarga en memoria de ambos modelos (`english` + `multilingual`), permitiendo detección y enrutamiento automático de idioma con latencia sub-segundo (~100-300 ms).
   - Creación de interfaz Web Playground interactiva en `https://laya.yangers.duckdns.org/` con presets y visualización en tiempo real de confianzas y probabilidades.
+- **Servidor Obsidian Web (LXC 121 `obsidian-server`):**
+  - Despliegue de nuevo contenedor LXC con Debian 13 (Trixie) en Proxmox VE (`proxmox-yp`).
+  - Recursos asignados: 2 vCPUs, 4 GB RAM, 512 MB swap, 16 GB disco NVMe en `local-lvm`, features `nesting=1,keyctl=1`.
+  - Red estática: IP `10.98.10.41/24`, Gateway `10.98.10.1`, DNS `10.98.10.250` (VLAN 10 Servidores / `YPA Home`).
+  - Instalación de Docker CE y despliegue del contenedor `lscr.io/linuxserver/obsidian:latest` transmitiendo la interfaz gráfica de escritorio de Obsidian a la web (puerto 3000).
+  - Almacenamiento persistente de vaults y configuración en `/opt/obsidian/config` y `/opt/obsidian/vaults`.
+  - Configurado Proxy Host (`ID 30`) en Nginx Proxy Manager para `obsidian.yangers.duckdns.org` reenviando a `http://10.98.10.41:3000` con SSL wildcard `*.yangers.duckdns.org`, HTTP/2 y soporte para WebSockets.
+  - Registro DNS añadido en Pi-hole 102 (`10.98.10.250`), Pi-hole 105 (`10.98.10.251`) y UniFi Gateway para resolución interna en toda la red.
 - **Gestión de Recursos Proxmox:**
   - Detenida máquina virtual `omarchy-vm` (VMID 112) liberando 8 GB RAM y 6 vCPUs en el nodo `proxmox-yp`.
 - **Resolución DNS Local:**
