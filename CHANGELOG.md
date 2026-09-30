@@ -4,6 +4,25 @@ Registro cronológico de cambios, provisionamiento, migraciones y actualizacione
 
 ---
 
+## [2026-09-29]
+
+### Modificado & Corregido
+- **Hermes Agent (LXC 101 `hermesagent`):**
+  - **Diagnóstico de límite de cuota (HTTP 429 RESOURCE_EXHAUSTED):** Identificada la causa de fallo en las tareas programadas de Hermes (`Google Workspace Daily Cleanup & Review` y `Infrastructure Health Check`), originada por haber alcanzado el límite mensual de gasto de la clave API de Google AI Studio.
+  - **Eliminación de acumulación recursiva de tokens (Paso 2):** Desactivada la acumulación de contexto histórico (`--no-continuity` -> `context_from: null`) en ambos cronjobs (`a428c4200498` y `a9ef8f8dbcc2`), evitando que el historial de ejecuciones previas multiplique exponencialmente el consumo de tokens en cada turno.
+  - **Configuración de cadena de fallback gratuita (Paso 3):**
+    - Añadida clave de API OpenRouter a `/home/hermes/.hermes/.env`.
+    - Configurada cadena de proveedores de respaldo `fallback_providers` en `/home/hermes/.hermes/config.yaml`:
+      1. Primario: `gemini-3.6-flash` (Google AI Studio).
+      2. Respaldo 1: `qwen/qwen3.8-27b:free` (OpenRouter, tier 100% gratuito).
+      3. Respaldo 2: `nvidia/nemotron-3-super-120b-a12b:free` (OpenRouter, tier 100% gratuito).
+  - **Validación y Pruebas Operativas:**
+    - Prueba exitosa de chat one-shot (`hermes -z`).
+    - Ejecución manual de prueba del cronjob `a428c4200498`, verificando la activación automática del fallback hacia OpenRouter Nemotron 120B, procesamiento de correos en Google Workspace, verificación de Google Calendar y envío exitoso del informe a Telegram.
+    - Reinicio limpio de LXC 101 validando el arranque automático de `hermes-gateway.service`, `hermes-dashboard.service`, WhatsApp bridge y cron heartbeat.
+
+---
+
 ## [2026-09-22]
 
 ### Añadido
