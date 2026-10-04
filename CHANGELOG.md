@@ -10,14 +10,30 @@ Registro cronológico de cambios, provisionamiento, migraciones y actualizacione
 - **Nginx Proxy Manager (LXC 109 `nginxproxymanager`):**
   - **Snapshot preventivo:** Creado snapshot `pre_upgrade_2160_20261004` antes de la intervención.
   - **Actualización de versión:** Actualizado de `v2.15.1` a `v2.16.0` (upstream release 2026-09-24) usando el script oficial de mantenimiento de Community-Scripts.
-  - **Componentes:**
-    - Node.js 22 & Yarn actualizados a la última versión disponible.
-    - Certbot & certbot-dns-cloudflare actualizados vía pip.
-    - Frontend y Backend compilados e inicializados con soporte better-sqlite3.
-    - Servicios `openresty.service` y `npm.service` activos y en ejecución.
-  - **Verificación operativa:**
-    - Panel de administración web respondiendo con código HTTP 200 en puerto 81 (`http://10.98.10.23:81`).
-    - Enrutamiento SSL / HTTPS validado exitosamente en proxy hosts activos (`pass.yangers.duckdns.org`, `pihole.yangers.duckdns.org`).
+  - **Componentes:** Node.js 22 & Yarn, Certbot & certbot-dns-cloudflare, compilación de Frontend/Backend con better-sqlite3 y parches del sistema operativo Debian 13.
+  - **Verificación operativa:** Panel web en puerto 81 y proxy hosts SSL activos (`pass`, `pihole`, etc.).
+- **Pi-hole Alta Disponibilidad (LXC 105 Secundario & LXC 102 Primario):**
+  - **Estrategia sin pérdida de servicio (Zero Downtime):** Actualizados secuencialmente para mantener resolución DNS activa y redundancy 100% operativa en todo momento.
+  - **Pi-hole Secundario (LXC 105 `10.98.10.251`):** Creado snapshot `pre_upgrade_20261004`, actualizado Pi-hole FTL de `v6.7` a `v6.7.1`, y aplicados 10 parches de seguridad del sistema operativo (OpenSSL 3.5.7, Unbound 1.26.1, Bind9 libs). Verificada resolución DNS antes de intervenir el nodo primario.
+  - **Pi-hole Primario (LXC 102 `10.98.10.250`):** Creado snapshot `pre_upgrade_20261004`, actualizado Pi-hole FTL a `v6.7.1`, y aplicados 10 parches de seguridad de Debian (OpenSSL, Unbound, Bind9). Verificada resolución DNS.
+- **Vaultwarden (LXC 107 `vaultwarden`):**
+  - **Snapshot preventivo:** Creado snapshot `pre_upgrade_20261004`.
+  - **Actualización de SO:** Aplicados 17 parches de seguridad acumulativos (OpenSSL, libssl-dev, linux-libc-dev, libheif). Verificado servicio `vaultwarden` activo y portal web (`pass.yangers.duckdns.org`).
+- **Plex Media Server (LXC 104 `plex`):**
+  - **Actualización de SO:** Aplicados 41 parches del sistema base Ubuntu 24.04 Noble (kernel/libc, mesa drivers, openssl, apparmor, curl).
+  - **Verificación operativa:** Servicio `plexmediaserver` activo y portal respondiendo vía proxy en `plex.yangers.duckdns.org`.
+- **Resilio Sync (LXC 103 `ResilioSync`):**
+  - **Actualización de SO:** Aplicados 7 parches de seguridad base Debian 12 Bookworm (openssl, libssl3, liblzma5, tzdata). Servicio `resilio-sync` activo.
+- **Gitea (LXC 106 `gitea`):**
+  - **Snapshot preventivo:** Creado snapshot `pre_upgrade_20261004`.
+  - **Actualización de SO:** Aplicados 6 parches de seguridad Debian 13 (OpenSSL, libssl3, jq). Servicio `gitea` verificado y activo.
+- **RustDesk Server (LXC 111 `rustdesk`):**
+  - **Snapshot preventivo:** Creado snapshot `pre_upgrade_20261004`.
+  - **Actualización de SO:** Aplicados 9 parches de seguridad Debian 13 (OpenSSL, bind9, jq). Verificados servicios `rustdesk-hbbs`, `rustdesk-hbbr` y `rustdesk-api` activos.
+- **Hermes Agent (LXC 101 `hermesagent`):**
+  - **Snapshot preventivo:** Creado snapshot `pre_upgrade_20261004`.
+  - **Actualización de SO:** Aplicados 12 parches del sistema operativo incluyendo Node.js 22.23.3 y OpenSSL 3.5.7.
+  - **Verificación operativa:** Servicio `hermes-dashboard`, gateway y cronjobs verificados y activos con Gemini Free Tier.
 
 ---
 
