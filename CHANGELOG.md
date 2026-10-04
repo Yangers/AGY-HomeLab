@@ -4,6 +4,23 @@ Registro cronológico de cambios, provisionamiento, migraciones y actualizacione
 
 ---
 
+## [2026-10-04]
+
+### Actualizado
+- **Nginx Proxy Manager (LXC 109 `nginxproxymanager`):**
+  - **Snapshot preventivo:** Creado snapshot `pre_upgrade_2160_20261004` antes de la intervención.
+  - **Actualización de versión:** Actualizado de `v2.15.1` a `v2.16.0` (upstream release 2026-09-24) usando el script oficial de mantenimiento de Community-Scripts.
+  - **Componentes:**
+    - Node.js 22 & Yarn actualizados a la última versión disponible.
+    - Certbot & certbot-dns-cloudflare actualizados vía pip.
+    - Frontend y Backend compilados e inicializados con soporte better-sqlite3.
+    - Servicios `openresty.service` y `npm.service` activos y en ejecución.
+  - **Verificación operativa:**
+    - Panel de administración web respondiendo con código HTTP 200 en puerto 81 (`http://10.98.10.23:81`).
+    - Enrutamiento SSL / HTTPS validado exitosamente en proxy hosts activos (`pass.yangers.duckdns.org`, `pihole.yangers.duckdns.org`).
+
+---
+
 ## [2026-09-30]
 
 ### Optimizado & Actualizado
