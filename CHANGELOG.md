@@ -4,6 +4,17 @@ Registro cronológico de cambios, provisionamiento, migraciones y actualizacione
 
 ---
 
+## [2026-10-12]
+
+### Configurado & Instalado
+- **Pi Agent & Pi Durable (LXC 122 `pi-agent`):**
+  - **Instalación de paquetes Pi Durable:** Instalados globalmente `@earendil-works/pi-durable@1.1.0`, `@earendil-works/pi-ai`, `@earendil-works/chord` y el orquestador de subagentes persistentes `pi-durable-subagents`.
+  - **Integración en Pi Coding Agent:** Añadidos los paquetes `npm:pi-antigravity` y `npm:pi-durable-subagents` al entorno de Pi (`~/.pi/agent/settings.json`).
+  - **Sincronización de Autenticación & Modelos:** Replicadas las credenciales y configuración OAuth de Antigravity (`auth.json`, `antigravity-accounts.json`, `models-store.json`) desde la estación de trabajo local, permitiendo acceso directo a `antigravity/gemini-3.8-flash` con cuota gratuita.
+  - **Verificación operativa:** Ejecutado y verificado `pi-durable-subagents smoke` (todas las superficies de ejecución y watch view operativas) y probado `pi -p` respondiendo con éxito vía Antigravity.
+
+---
+
 ## [2026-10-04]
 
 ### Actualizado
