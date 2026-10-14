@@ -4,7 +4,16 @@ Registro cronológico de cambios, provisionamiento, migraciones y actualizacione
 
 ---
 
-## [2026-10-12]
+## [2026-10-14]
+
+### Actualizado
+- **Hermes Agent (LXC 101 `hermesagent`):**
+  - **Actualización de versión:** Actualizado Hermes de `v0.20.6` a `v0.22.1+1.g5575a08` mediante `hermes update`.
+  - **Componentes y Skills:** Sincronizadas las últimas versiones de las skills empaquetadas (incluyendo `github`, `systematic-debugging`, etc.), actualización de dependencias Python/Node y reinicio exitoso del servicio `hermes-gateway`.
+
+---
+
+
 
 ### Configurado & Instalado
 - **Pi Agent & Pi Durable (LXC 122 `pi-agent`):**
