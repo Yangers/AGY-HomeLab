@@ -4,6 +4,26 @@ Registro cronológico de cambios, provisionamiento, migraciones y actualizacione
 
 ---
 
+## [2026-11-06]
+
+### Actualizado & Mantenimiento Mayor
+- **Proxmox Backup Server (VM 100 `pbs-yp`):**
+  - **Snapshot preventivo:** Creado snapshot `pre_upgrade_20261106` en almacenamiento ZFS `SSD2`.
+  - **Actualización de sistema:** 81 paquetes actualizados (Debian Trixie base, librerías, cliente/servidor PBS). Versión en ejecución confirmada: `proxmox-backup-server 4.2.9-1`.
+  - **Almacenamiento de Backups:** Verificado datastore `UNAS_Backups` en `/mnt/UNAS_Backup` (7.0 TB usados / 44 TB disponibles, 16% ocupado).
+- **Proxmox VE Hypervisor Host (`proxmox-yp` @ `10.98.10.5`):**
+  - **Depuración de repositorios APT:** Eliminados archivos redundantes con configuración duplicada (`pve-install-repo.list`, `pve-no-subscription.list`) y unificado en `proxmox.sources` (formato deb822).
+  - **Actualización mayor (dist-upgrade):** 77 paquetes actualizados incluyendo `pve-manager` a `9.2.26`, `qemu-server` a `9.2.14`, `corosync` a `3.2.0-pve1`, `pve-container` a `6.1.18` y kernel Proxmox `7.0.14-28-pve-signed`.
+  - **Reinicio y Restauración de Servicios (Zero Leftovers):**
+    - Reiniciado el host físico Proxmox VE.
+    - Verificación y encendido de todas las cargas de producción: VM 100 (`pbs-yp`) y los 10 contenedores LXC (`102` Pi-hole 1, `103` ResilioSync, `104` Plex, `105` Pi-hole 2, `106` Gitea, `107` Vaultwarden, `109` Nginx Proxy Manager, `111` RustDesk, `115` Home Assistant, `122` Pi Agent).
+  - **Pruebas de Salud End-to-End Post-Reinicio:**
+    - DNS Alta Disponibilidad: Validada resolución limpia en ambos Pi-holes (`10.98.10.250` y `10.98.10.251`).
+    - Nginx Proxy Manager & SSL: Verificados endpoints HTTPS (`pass.yangers.org`, `git`, `npm`, etc.) respondiendo `200 OK`.
+    - Servicios Web directos: PVE Web UI (`:8006`), PBS Web UI (`:8007`), Pi Agent ttyd (`:7681`), Hubitat Elevation y UniFi Gateway verificados y operativos.
+
+---
+
 ## [2026-10-14]
 
 ### Actualizado
